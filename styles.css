@@ -1,0 +1,200 @@
+/* Universal Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.color-scheme,
+.font-style,
+.text-style {
+  border: 2px solid #000000;
+  border-radius: 5px;
+  margin: 0rem 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.color-scheme h2,
+.font-style h2,
+.text-style > h2 {
+  text-align: center;
+  font-weight: 700;
+  padding: 1.5rem;
+}
+
+.color-scheme h3,
+.font-style h3,
+.text {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: flex-start;
+  padding: 1.5rem;
+}
+
+/* Header Styling Start */
+header {
+  padding: 3rem;
+}
+
+.text-header {
+  text-align: center;
+}
+
+.logo {
+  background-color: #0d9488;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 0.2rem;
+}
+/* Header Styling End */
+
+/* Color Styling Start */
+
+.font-color {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.color {
+  padding: 0.5rem;
+  width: 12rem;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.color h4,
+.color p {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.logo-color {
+  background-color: #0d9488;
+}
+
+.feature-one {
+  background-color: #f59e0b;
+}
+
+.feature-two {
+  background-color: #0ea5e9;
+}
+
+.feature-three {
+  background-color: #0a756c;
+}
+
+.feature-four {
+  background-color: #6366f1;
+}
+
+.background-one {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.background-two {
+  background-color: #f8fafc;
+  color: #000000;
+}
+
+.background-three {
+  background-color: #f1f5f9;
+  color: #000000;
+}
+
+.background-four {
+  background-color: #e2e8f0;
+  color: #000000;
+}
+
+.background-five {
+  background-color: #0f172a;
+}
+
+.font-color-one {
+  background-color: #475569;
+}
+
+.font-color-two {
+  background-color: #334155;
+}
+/* Color Styling End */
+
+/* Font Family Styling Start */
+.font-type {
+  flex-direction: column;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif, monospace;
+}
+
+.regular {
+  font-family: "Poppins", sans-serif, monospace;
+}
+
+.bold {
+  font-weight: 700;
+  font-family: "Poppins", sans-serif, monospace;
+}
+
+.italic {
+  font-style: italic;
+  font-family: "Poppins", sans-serif, monospace;
+}
+/* Font Family Styling End */
+
+/* Text Style Styling Start */
+.text {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.main-heading h1,
+.subheading-h2 h2,
+.subheading-h3 h3,
+.subheading-h4 h4,
+.style {
+  margin-bottom: 0.5rem;
+}
+
+.main-heading p,
+.subheading-h2 p,
+.subheading-h3 p,
+.subheading-h4 p,
+.text-desc {
+  font-family: "Courier New", Courier, monospace;
+}
+/* Text Style Styling End */
+
+/* Footer Styling Start */
+footer {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+a {
+  font-weight: 700;
+  color: #0d9488;
+}
+/* Footer Styling End */
